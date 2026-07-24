@@ -23,6 +23,7 @@ export default function Contact() {
     e.preventDefault();
     if (!formRef.current) return;
 
+    
     setStatus("loading");
     try {
       await emailjs.sendForm(
