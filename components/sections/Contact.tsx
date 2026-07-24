@@ -26,11 +26,12 @@ export default function Contact() {
     setStatus("loading");
     try {
       await emailjs.sendForm(
-        "service_portfolio_aw",
-        "template_portfolio_aw",
+        process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!,
         formRef.current,
-        "YOUR_EMAILJS_PUBLIC_KEY"
+        process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!
       );
+
       setStatus("success");
       setFormData({ name: "", email: "", subject: "", message: "" });
     } catch {
@@ -41,7 +42,7 @@ export default function Contact() {
   return (
     <section id="contact" className="py-20 md:py-28 bg-[#111622] border-t border-slate-800/80">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="badge-pill-gold mb-3">Get In Touch</span>
@@ -54,11 +55,11 @@ export default function Contact() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-          
+
           {/* Left Column: Direct Contact Info */}
           <div className="lg:col-span-5 space-y-6">
             <div className="bg-[#161D2E] border border-slate-800 rounded-3xl p-8 shadow-xl space-y-6">
-              
+
               <h3 className="text-xl font-bold text-white mb-2">
                 Contact Information
               </h3>
@@ -171,7 +172,7 @@ export default function Contact() {
           <div className="lg:col-span-7">
             <div className="bg-[#161D2E] border border-slate-800 rounded-3xl p-8 shadow-xl">
               <form ref={formRef} onSubmit={handleSubmit} className="space-y-5">
-                
+
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                   <div>
                     <label htmlFor="name" className="block text-xs font-semibold text-slate-300 mb-2">
