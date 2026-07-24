@@ -35,7 +35,8 @@ export default function Contact() {
 
       setStatus("success");
       setFormData({ name: "", email: "", subject: "", message: "" });
-    } catch {
+    } catch (err) {
+      console.error("EmailJS submission error:", err);
       setStatus("error");
     }
   };
