@@ -32,7 +32,7 @@ export const stats = [
   { value: 3.89, suffix: "", label: "CGPA / 4.00", isDecimal: true },
   { value: 5, suffix: "+", label: "Projects Delivered" },
   { value: 3, suffix: "+", label: "Developers Mentored" },
-  { value: 20, suffix: "%", label: "Load Time Reduced" },
+  { value: 40, suffix: "%", label: "Load Time Reduced" },
 ];
 
 export const education = [
@@ -46,10 +46,10 @@ export const education = [
   },
   {
     period: "2020 – 2022",
-    title: "Intermediate (FSC Pre-Engineering)",
+    title: "Intermediate (FSC Pre-Medical)",
     institution: "Aspie College, Faisalabad",
     description:
-      "Secured 79% in FSC Pre-Engineering. Developed a deep interest in software engineering and web technologies.",
+      "Secured 79% in FSC Pre-Medical. Developed a deep interest in medi-tech and software engineering instead of traditional medical studies thus developed a welfare app named as BloodWelfare.",
     grade: "79%",
   },
   {
@@ -57,7 +57,7 @@ export const education = [
     title: "Bachelor of Computer Science",
     institution: "The University of Faisalabad",
     description:
-      "Graduated with the highest CGPA in the department — 3.89/4.00. Nominee for Gold Medal. Final Year Research Project: Skill Swap (MERN barter platform).",
+      "Graduated with the highest CGPA in the department — 3.89/4.00. Nominee for Gold Medal. Final Year Research Project: Skill Swap (Skill Trading platform).",
     grade: "3.89 / 4.00",
     highlight: "Gold Medal Nominee",
     iconName: "ph:trophy-bold",
@@ -92,12 +92,13 @@ export const experience = [
     description:
       "Contributing to the full software development lifecycle, specialising in building high-performance React applications for enterprise clients.",
     bullets: [
-      "Reduced page load time by 20% on Zarr by Jazz through targeted component optimization and re-render reduction serving 10,000+ users",
-      "Delivered multiple production projects: Zarr Invoicing System, Digikhata, Alterna, Invoicex",
-      "Implemented reusable component libraries that reduced development time across projects",
-      "Collaborated with cross-functional teams including designers, QA, and product managers",
+      "Reduced page load time by 40% on Zarr by Jazz through targeted component optimization and re-render reduction serving 1000+ users",
+      "Delivered multiple production projects: Zarr Invoicing System, Digikhata Credit Scoring, Alterna Finance, Invoicex for B2B Invoicing (FBR Integrated), Kisan 360 for Agriculture Management, and more",
+      "Implemented reusable component libraries specifically MUI that reduced development time across projects",
+      "Designed basic level FIGMA prototypes for new features and enhancements",
+      "Collaborated with cross-functional teams including designers, QA, AI Engineers, and product managers",
     ],
-    tech: ["React.js", "TypeScript", "Redux", "Material UI", "Node.js", "REST APIs"],
+    tech: ["React.js", "TypeScript", "Redux", "Material UI", "Node.js", "REST APIs", "JWT Auth", "MongoDB" ,"Git" ,"Figma"],
     isCurrent: true,
   },
   {
@@ -113,7 +114,7 @@ export const experience = [
       "Bridged communication between technical teams and non-technical stakeholders",
       "Fostered a collaborative environment ensuring on-time delivery of scalable solutions",
     ],
-    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Auth", "REST APIs"],
+    tech: ["HTML", "CSS", "JavaScript", "MySQL", "PHP", "Bootstrap" , "React.js" , "Git"],
     isCurrent: false,
   },
   {
@@ -154,14 +155,14 @@ export const skillCategories = [
   {
     id: "backend",
     label: "Backend",
-    iconName: "ph:server-bold",
+    iconName: "ph:hard-drives-bold",
     skills: ["Node.js", "Express.js", "REST APIs", "JWT Auth", "Flask", "FastAPI"],
   },
   {
     id: "database",
     label: "Database",
     iconName: "ph:database-bold",
-    skills: ["MongoDB", "Mongoose", "MySQL", "PostgreSQL", "Oracle"],
+    skills: ["MongoDB", "Mongoose", "Firebase", "MySQL", "PostgreSQL", "Oracle"],
   },
   {
     id: "cloud",
@@ -216,7 +217,7 @@ export const projects = [
     description:
       "A full-stack, barter-based skill exchange platform where creative professionals trade services without monetary transactions. Users list skills they offer and request, connecting with others for mutual collaboration.",
     image: "/images/SkillSwapProjectImage.png",
-    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Auth", "REST APIs", "Bootstrap", "Netlify"],
+    tech: ["React.js", "Node.js", "Express.js", "MongoDB", "JWT Auth", "REST APIs", "Material UI", "Socket.io" ,"Netlify" , "Vercel" ,"Render", "Git", "Figma"],
     liveUrl: "https://devskillswap.netlify.app/",
     githubUrl: null,
     category: ["fullstack", "featured"],
@@ -325,9 +326,9 @@ export const certifications = [
   {
     iconName: "ph:buildings-bold",
     title: "Enterprise Software Contributor",
-    issuer: "Synergic Professionals (Jazz Partner)",
+    issuer: "Synergic Professionals",
     date: "2025 – Present",
-    description: "Contributing to production enterprise software — Zarr by Jazz — serving over 10,000 active users across Pakistan.",
+    description: "Contributing to production enterprise software Zarr by Jazz.",
     color: "teal",
   },
   {

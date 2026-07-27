@@ -16,11 +16,11 @@ export default function Footer() {
     <footer className="bg-[#0B0F19] border-t border-slate-800/80 pt-16 pb-12 text-slate-400">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-10 mb-12">
-          
+
           {/* Brand Info */}
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-violet-600 to-indigo-500 flex items-center justify-center text-white font-extrabold text-lg">
+              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-amber-500 to-amber-600 flex items-center justify-center text-[#0B0E14] font-extrabold text-xl shadow-lg shadow-amber-500/20 group-hover:scale-105 transition-transform">
                 AW
               </div>
               <span className="text-xl font-bold text-white tracking-tight">
@@ -51,7 +51,7 @@ export default function Footer() {
               >
                 <FaLinkedinIn size={18} />
               </a>
-              <a
+              {/* <a
                 href={personalInfo.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -59,7 +59,7 @@ export default function Footer() {
                 title="Facebook"
               >
                 <FaFacebook size={18} />
-              </a>
+              </a> */}
               <a
                 href={personalInfo.instagram}
                 target="_blank"
@@ -119,11 +119,11 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-4">
+        <div className="pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-center text-xs text-slate-500 gap-4">
           <p>© 2026 Abdul Wahid. All rights reserved.</p>
-          <p>
+          {/* <p>
             Designed & Built with <span className="text-indigo-400 font-bold">Next.js</span>
-          </p>
+          </p> */}
         </div>
 
       </div>

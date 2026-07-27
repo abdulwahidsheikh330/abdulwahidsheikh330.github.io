@@ -146,7 +146,7 @@ export default function Contact() {
                   >
                     <FaGithub size={18} />
                   </a>
-                  <a
+                  {/* <a
                     href={personalInfo.facebook}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -154,7 +154,7 @@ export default function Contact() {
                     title="Facebook"
                   >
                     <FaFacebook size={18} />
-                  </a>
+                  </a> */}
                   <a
                     href={personalInfo.instagram}
                     target="_blank"

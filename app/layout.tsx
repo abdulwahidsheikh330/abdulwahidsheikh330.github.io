@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   robots: "index, follow",
   openGraph: {
     type: "website",
-    url: "https://abdulwahidsheikh330.github.io/Personal-Portfolio/",
+    url: "https://abdulwahidsheikh.me/",
     title: "Abdul Wahid | React Developer & Full Stack Engineer",
     description:
       "React Developer & MERN Stack Engineer with 2+ years of experience. Currently at Synergic Professionals (Jazz partner). Based in Faisalabad, Pakistan.",
@@ -43,13 +43,12 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-        <link rel="canonical" href="https://abdulwahidsheikh330.github.io/Personal-Portfolio/" />
+        <link rel="canonical" href="https://abdulwahidsheikh.me/" />
         <meta name="google-site-verification" content="94ffbe3d5fc0a289" />
         <link
           rel="icon"
           type="image/svg+xml"
-          href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%236366F1'/><text x='50' y='68' font-family='sans-serif' font-size='50' font-weight='bold' text-anchor='middle' fill='%23FFFFFF'>AW</text></svg>"
-        />
+          href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23F58D00'/><text x='50' y='68' font-family='sans-serif' font-size='50' font-weight='bold' text-anchor='middle' fill='%2300000'>AW</text></svg>" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -61,7 +60,7 @@ export default function RootLayout({
               jobTitle: "React Developer & Full Stack Engineer",
               description:
                 "React Developer and MERN Stack Engineer with 2+ years of experience building scalable web applications. Currently at Synergic Professionals, a Jazz partner.",
-              url: "https://abdulwahidsheikh330.github.io/Personal-Portfolio/",
+              url: "https://abdulwahidsheikh.me/",
               email: "abdulwahidsheikh330@gmail.com",
               telephone: "+923007664789",
               address: {
@@ -71,7 +70,8 @@ export default function RootLayout({
               },
               knowsAbout: [
                 "React.js", "Node.js", "MERN Stack", "JavaScript", "TypeScript",
-                "Full Stack Development", "MongoDB", "Express.js", "Next.js",
+                "Full Stack Development", "MongoDB", "Express.js", "Next.js", 'REST APIs', "JWT Authentication", "Redux Toolkit", "Material UI", "Tailwind CSS",
+                "Bootstrap", "Git", "Figma", "Agile Development", "Web Application Development", "Software Engineering", "Front-end Development", "Back-end Development",
               ],
               alumniOf: {
                 "@type": "CollegeOrUniversity",

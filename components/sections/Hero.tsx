@@ -88,9 +88,10 @@ export default function Hero() {
             <p className="text-slate-300 text-base md:text-lg leading-relaxed mb-8 max-w-2xl mx-auto lg:mx-0">
               Results-driven Full Stack Engineer with{" "}
               <strong className="text-white font-semibold">2+ years experience</strong>{" "}
-              building enterprise web apps at{" "}
-              <span className="text-amber-400 font-semibold">Synergic Professionals</span>{" "}
-              (Jazz partner). Department Top Graduate with{" "}
+              building enterprise web apps, Fintech and E-commerce platforms.
+              {/* <span className="text-amber-400 font-semibold">Synergic Professionals</span>{" "} */}
+              {/* (Jazz partner).  */}
+              Department Top Graduate with{" "}
               <span className="text-teal-400 font-semibold">3.89 CGPA</span>.
             </p>
 
@@ -132,7 +133,7 @@ export default function Hero() {
               >
                 <FaLinkedinIn size={20} />
               </a>
-              <a
+              {/* <a
                 href={personalInfo.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -140,7 +141,7 @@ export default function Hero() {
                 title="Facebook"
               >
                 <FaFacebook size={20} />
-              </a>
+              </a> */}
               <a
                 href={personalInfo.instagram}
                 target="_blank"
@@ -193,8 +194,8 @@ export default function Hero() {
                     <Icon icon="ph:briefcase-bold" className="w-6 h-6" />
                   </div>
                   <div>
-                    <div className="text-xs text-slate-400 font-medium">Synergic Prof.</div>
-                    <div className="text-sm font-bold text-teal-400">Jazz Partner</div>
+                    <div className="text-xs text-slate-400 font-medium">CEO</div>
+                    <div className="text-sm font-bold text-teal-400">Skill Swap</div>
                   </div>
                 </div>
 

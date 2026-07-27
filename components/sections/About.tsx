@@ -104,13 +104,13 @@ export default function About() {
               <p className="text-slate-300 leading-relaxed">
                 Currently working as a{" "}
                 <strong className="text-amber-400 font-semibold">React Developer</strong> at{" "}
-                <strong className="text-white">Synergic Professionals</strong> (a Jazz partner),
+                <strong className="text-white">Synergic Professionals</strong>,
                 contributing to enterprise-grade invoicing systems serving{" "}
                 <span className="text-teal-400 font-semibold">10,000+ active users</span>.
               </p>
 
               <p className="text-slate-300 leading-relaxed">
-                I specialize in the <strong className="text-white">MERN Stack</strong> (React.js, Node.js, Express.js, MongoDB) alongside modern TypeScript, Redux Toolkit, and RESTful architectures. Graduated with the <strong className="text-amber-400">highest CGPA (3.89/4.00)</strong> in the Computer Science department at The University of Faisalabad — and a Gold Medal Nominee.
+                I specialize in the <strong className="text-white">MERN Stack</strong> (React.js, Node.js, Express.js, MongoDB) alongside NextJs and modern TypeScript, Redux Toolkit, and RESTful architectures. Graduated with the <strong className="text-amber-400">highest CGPA (3.89/4.00)</strong> in the Computer Science department at The University of Faisalabad — and a Gold Medal Nominee.
               </p>
             </div>
 
