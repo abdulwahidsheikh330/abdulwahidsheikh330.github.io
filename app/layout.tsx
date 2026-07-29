@@ -44,7 +44,7 @@ export default function RootLayout({
     <html lang="en" className="scroll-smooth">
       <head>
         <link rel="canonical" href="https://abdulwahidsheikh.me/" />
-        <meta name="google-site-verification" content="94ffbe3d5fc0a289" />
+        <meta name="google-site-verification" content="wYTZsQ8Pp0bjuCJz0pzH0qqbWPKAprg90VM" />
         <link
           rel="icon"
           type="image/svg+xml"
